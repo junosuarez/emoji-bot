@@ -17,3 +17,6 @@ this irc convo:
 3:07 PM <•krustuna_work> jden: would you like to add me to your repo bc I have some ideas
 3:07 PM <•jden> i will be the convener of the repo :)
 ```
+
+## but what is :sadhorse: a picture of?
+![:sadhorse:](http://4.bp.blogspot.com/_4P-9Awd0-N4/S2BhSHwdOYI/AAAAAAAAAnk/5Iqv6mQbDs0/s400/horse460b_1012174c.jpg)
