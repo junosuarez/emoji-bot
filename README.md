@@ -1,6 +1,9 @@
 emoji-bot
 =========
 
+## who wants their own personlized Emoji?
+![:badtudedude:](http://imgur.com/SZt8OaZ.jpg)
+
 its a bot for emoji duh
 
 
