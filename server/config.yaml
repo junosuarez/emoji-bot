@@ -1,8 +1,0 @@
----
-# Add whatever channels you want to emojibot to connect to
-# ex.
-#   - #differentChannel
-#   - #channel password
-channels:
-  # - "##meatspac.es m347wow"
-debug: true
