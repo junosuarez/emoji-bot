@@ -6,11 +6,12 @@ in the essence of:
 ```yaml
 ---
 channels
- - #yourdesiredchannel andoptionalpassword
+ - "#yourdesiredchannel andoptionalpassword"
 ```
 
-Edit the emoji.yaml to add new emoji
-
-```yaml
-butts: http://urlto.biz/butts/jpg
+```shell
+npm install
+node index.js
 ```
+
+If you want to use forever or something that could be a good idea.

@@ -24,3 +24,6 @@ this irc convo:
 
 ## but what is :sadhorse: a picture of?
 ![:sadhorse:](http://4.bp.blogspot.com/_4P-9Awd0-N4/S2BhSHwdOYI/AAAAAAAAAnk/5Iqv6mQbDs0/s400/horse460b_1012174c.jpg)
+
+## I have an idea for an emoji
+Please edit emoji.yaml the format is fairly straightforward.

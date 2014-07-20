@@ -14,8 +14,8 @@ function EmojiBot (server, nick, opts) {
   this.emoji = {}
   this.server = server
   this.markov = markov(9)
-  console.log(this.nick + ': *stretching and yawning* Waking up!')
 
+  this.log('*stretching and yawning* Waking up!')
   this.client.addListener('join', function (channel, nick) {
     if (nick === this.nick) {
       that.log('I\'ve connected to: ' + channel)
@@ -37,23 +37,27 @@ EmojiBot.prototype.read = function (from, to, message) {
   // Look for emoji
   var emoji = message.match(/:.+[^\s]:/g)
   if (emoji) {
-    return that.generateEmoji(emoji, from)
+    that.log('Emoji detected. Processing...')
+    return that.generateEmoji(from, to, emoji)
   }
 }
 
-EmojiBot.prototype.generateEmoji = function (emoji, from) {
+EmojiBot.prototype.generateEmoji = function (from, to, emoji) {
   var that = this
   // parse the emoji to plain text
   var emoji = _(emoji)
     .map(function (word) {
-      return word.replace(/:/g, '')
+      return word.replace(/:/g, '').trim()
     })
   // do something with them
   emoji.each(function (em) {
     var url = that.emoji[em];
+    that.log('Emoji matched: ' + em + ' => ' + that.emoji[em])
     if (url) {
-      that.log('Found an emoji!')
-      that.client.say(from, url)
+      that.log('Message to: ' + to)
+      that.client.say(to, url)
+    } else {
+      that.log('No emoji url found in records for: ' + em)
     }
   })
 }
