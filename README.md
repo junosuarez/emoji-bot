@@ -2,7 +2,9 @@ emoji-bot
 =========
 
 ## Who wants their own personlized Emoji?
-![:badtudedude:](http://imgur.com/SZt8OaZ.jpg)
+![:JDEN:](https://raw.githubusercontent.com/jden/emoji-bot/master/Image%20Files/jden.png)
+![:TALON:](https://raw.githubusercontent.com/jden/emoji-bot/master/Image%20Files/talon.png)
+![:GRINGOGIDGET:](https://raw.githubusercontent.com/jden/emoji-bot/master/Image%20Files/gringogidget.png)
 
 It's a bot for emoji duh
 
